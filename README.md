@@ -44,7 +44,26 @@ Data de Matrícula (simples)<br>
 Situação da Matrícula (simples: ativa, trancada, concluída)<br>
 ID da Matrícula (atributo chave)<br>
 
+## Relacionamentos:
 
+Aluno e Matrícula (Muitos para Muitos - N:N):<br>
+ Um aluno pode se matricular em vários cursos.<br>
+ Uma matrícula pode envolver vários alunos.<br>
 
+Aluno e Turma (Muitos para Muitos - N:N):<br>
+ Um aluno pode pertencer a várias turmas.<br>
+ Uma turma pode ter vários alunos.<br>
+
+Curso e Turma (Um para Muitos - 1:N):<br>
+ Um curso pode ter várias turmas.<br>
+ Uma turma pertence a apenas um curso.<br>
+
+Professor e Curso (Um para Muitos - 1:N):<br>
+ Um professor pode lecionar vários cursos.<br>
+ Um curso é lecionado por apenas um professor.<br>
+
+Turma e Matrícula (Um para Muitos - 1:N):<br>
+ Uma turma pode ter várias matrículas.<br>
+ Uma matrícula pertence a apenas uma turma<br>
 
 
