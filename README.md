@@ -77,10 +77,8 @@ Turma e Matrícula (Um para Muitos - 1:N):<br>
 
 ## Criação de Tabelas
 
-USE ModelagemBD<br>
-
 CREATE TABLE Aluno (<br>
-    AlunoID INT PRIMARY KEY,<br>
+    AlunoID INT PRIMARY KEY IDENTITY(1,1),<br>
     Nome VARCHAR(255),<br>
     DataNascimento DATE,<br>
     EnderecoRua VARCHAR(255),<br>
@@ -91,7 +89,7 @@ CREATE TABLE Aluno (<br>
 );<br>
 
 CREATE TABLE Professor (<br>
-    ProfessorID INT PRIMARY KEY,<br>
+    ProfessorID INT PRIMARY KEY IDENTITY(1,1),<br>
     Nome VARCHAR(255),<br>
     DataNascimento DATE,<br>
     EnderecoRua VARCHAR(255),<br>
@@ -102,14 +100,14 @@ CREATE TABLE Professor (<br>
 );<br>
 
 CREATE TABLE Curso (<br>
-    CursoID INT PRIMARY KEY,<br>
+    CursoID INT PRIMARY KEY IDENTITY(1,1),<br>
     NomeCurso VARCHAR(255),<br>
     CodigoCurso VARCHAR(20),<br>
     CargaHoraria INT<br>
 );<br>
 
 CREATE TABLE Turma (<br>
-    TurmaID INT PRIMARY KEY,<br>
+    TurmaID INT PRIMARY KEY IDENTITY(1,1),<br>
     AnoIngresso INT,<br>
     Periodo VARCHAR(10),<br>
     Sala VARCHAR(10),<br>
@@ -118,7 +116,7 @@ CREATE TABLE Turma (<br>
 );<br>
 
 CREATE TABLE Matricula (<br>
-    MatriculaID INT PRIMARY KEY,<br>
+    MatriculaID INT PRIMARY KEY IDENTITY(1,1),<br>
     DataMatricula DATE,<br>
     SituacaoMatricula VARCHAR(20),<br>
     AlunoID INT,<br>
