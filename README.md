@@ -1,7 +1,9 @@
 # Prova Final Modelagem Banco De Dados  
+
+## Cenario:
 Uma escola entrou em contato buscando a implementação de um sistema abrangente para gerenciar suas operações educacionais, incluindo informações sobre alunos, professores, cursos e matrículas. Cada aluno, como requisito essencial, terá um perfil detalhado com atributos como notas e dados de contato, enquanto cada professor terá um perfil associado, indicando disciplinas lecionadas e outros detalhes relevantes. Além disso, o sistema permitirá registrar e monitorar as matrículas dos alunos em diferentes turmas e cursos ao longo do tempo. Para atender a essas necessidades, a proposta é desenvolver o sistema utilizando o SQLServer como sistema de gerenciamento de banco de dados, assegurando uma estrutura sólida e eficiente para a gestão integrada das atividades educacionais.
 
-# Criação do banco de dados
+# Modelagem Conceitual
 
 ## Entidades:
 Aluno<br>
@@ -66,16 +68,16 @@ Turma e Matrícula (Um para Muitos - 1:N):<br>
  Uma turma pode ter várias matrículas.<br>
  Uma matrícula pertence a apenas uma turma<br>
 
-# D.E.R (Diagrama Entidade Relacionamento)
+## D.E.R (Diagrama Entidade Relacionamento)
 
 ![Captura de tela 2023-11-30 124538](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/ab3afe24-4dd7-49f7-ab9e-1d1baf29aa4e)
 
 # Modelagem Lógica 
 
 
-# Modelagem física
+# Dados
 
-## Criação de Tabelas
+## CRUD 
 
 CREATE TABLE Aluno (<br>
     AlunoID INT PRIMARY KEY IDENTITY(1,1),<br>
@@ -242,7 +244,7 @@ VALUES<br>
     ('2022-10-12', 'Ativa', 19, 65),<br>
     ('2023-12-30', 'Concluída', 20, 66);<br>
 
-## Dados
+## Relatórios
 
 Insert:<br>
 ![Captura de tela 2023-11-30 163322](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/cce22d62-d095-4200-9410-3913cce7c371)
@@ -253,7 +255,7 @@ SELECT:<br>
 UPDATE:<br>
 ![Captura de tela 2023-11-30 163419](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/a1b09c56-34ce-4613-96cc-60c0ab17225d)
 
-DELETE:
+DELETE:<br>
 ![Captura de tela 2023-11-30 163610](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/27195ceb-541f-4277-bfb2-c6520a1b09bf)
 
 
