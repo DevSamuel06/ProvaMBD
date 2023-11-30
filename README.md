@@ -77,7 +77,7 @@ Turma e Matrícula (Um para Muitos - 1:N):<br>
 
 ## Criação de Tabelas
 
-USE ModelagemBD
+USE ModelagemBD<br>
 
 CREATE TABLE Aluno (
     AlunoID INT PRIMARY KEY,
