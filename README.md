@@ -79,50 +79,50 @@ Turma e Matrícula (Um para Muitos - 1:N):<br>
 
 USE ModelagemBD<br>
 
-CREATE TABLE Aluno (
-    AlunoID INT PRIMARY KEY,
-    Nome VARCHAR(255),
-    DataNascimento DATE,
-    EnderecoRua VARCHAR(255),
-    EnderecoCidade VARCHAR(255),
-    EnderecoEstado VARCHAR(255),
-    Telefone VARCHAR(20),
-    NotaMedia FLOAT
-);
+CREATE TABLE Aluno (<br>
+    AlunoID INT PRIMARY KEY,<br>
+    Nome VARCHAR(255),<br>
+    DataNascimento DATE,<br>
+    EnderecoRua VARCHAR(255),<br>
+    EnderecoCidade VARCHAR(255),<br>
+    EnderecoEstado VARCHAR(255),<br>
+    Telefone VARCHAR(20),<br>
+    NotaMedia FLOAT<br>
+);<br>
 
-CREATE TABLE Professor (
-    ProfessorID INT PRIMARY KEY,
-    Nome VARCHAR(255),
-    DataNascimento DATE,
-    EnderecoRua VARCHAR(255),
-    EnderecoCidade VARCHAR(255),
-    EnderecoEstado VARCHAR(255),
-    Telefone VARCHAR(20),
-    DisciplinaLecionada VARCHAR(255)
-);
+CREATE TABLE Professor (<br>
+    ProfessorID INT PRIMARY KEY,<br>
+    Nome VARCHAR(255),<br>
+    DataNascimento DATE,<br>
+    EnderecoRua VARCHAR(255),<br>
+    EnderecoCidade VARCHAR(255),<br>
+    EnderecoEstado VARCHAR(255),<br>
+    Telefone VARCHAR(20),<br>
+    DisciplinaLecionada VARCHAR(255)<br>
+);<br>
 
-CREATE TABLE Curso (
-    CursoID INT PRIMARY KEY,
-    NomeCurso VARCHAR(255),
-    CodigoCurso VARCHAR(20),
-    CargaHoraria INT
-);
+CREATE TABLE Curso (<br>
+    CursoID INT PRIMARY KEY,<br>
+    NomeCurso VARCHAR(255),<br>
+    CodigoCurso VARCHAR(20),<br>
+    CargaHoraria INT<br>
+);<br>
 
-CREATE TABLE Turma (
-    TurmaID INT PRIMARY KEY,
-    AnoIngresso INT,
-    Periodo VARCHAR(10),
-    Sala VARCHAR(10),
-    CursoID INT,
-    FOREIGN KEY (CursoID) REFERENCES Curso(CursoID)
-);
+CREATE TABLE Turma (<br>
+    TurmaID INT PRIMARY KEY,<br>
+    AnoIngresso INT,<br>
+    Periodo VARCHAR(10),<br>
+    Sala VARCHAR(10),<br>
+    CursoID INT,<br>
+    FOREIGN KEY (CursoID) REFERENCES Curso(CursoID)<br>
+);<br>
 
-CREATE TABLE Matricula (
-    MatriculaID INT PRIMARY KEY,
-    DataMatricula DATE,
-    SituacaoMatricula VARCHAR(20),
-    AlunoID INT,
-    TurmaID INT,
-    FOREIGN KEY (AlunoID) REFERENCES Aluno(AlunoID),
-    FOREIGN KEY (TurmaID) REFERENCES Turma(TurmaID)
-);
+CREATE TABLE Matricula (<br>
+    MatriculaID INT PRIMARY KEY,<br>
+    DataMatricula DATE,<br>
+    SituacaoMatricula VARCHAR(20),<br>
+    AlunoID INT,<br>
+    TurmaID INT,<br>
+    FOREIGN KEY (AlunoID) REFERENCES Aluno(AlunoID),<br>
+    FOREIGN KEY (TurmaID) REFERENCES Turma(TurmaID)<br>
+);<br>
