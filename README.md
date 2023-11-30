@@ -244,5 +244,19 @@ VALUES<br>
 
 ## Dados
 
-![Captura de tela 2023-11-30 163610](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/517bc29e-1d9a-4748-983b-c39addb50b6a)
+Insert:<br>
+![Captura de tela 2023-11-30 163322](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/cce22d62-d095-4200-9410-3913cce7c371)
+
+SELECT:<br>
+![Captura de tela 2023-11-30 163357](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/afe62a6e-4ea1-4c5b-a196-323668b98b38)
+
+UPDATE:<br>
+![Captura de tela 2023-11-30 163419](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/a1b09c56-34ce-4613-96cc-60c0ab17225d)
+
+DELETE:
+![Captura de tela 2023-11-30 163610](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/27195ceb-541f-4277-bfb2-c6520a1b09bf)
+
+
+
+
 
