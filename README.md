@@ -124,3 +124,120 @@ CREATE TABLE Matricula (<br>
     FOREIGN KEY (AlunoID) REFERENCES Aluno(AlunoID),<br>
     FOREIGN KEY (TurmaID) REFERENCES Turma(TurmaID)<br>
 );<br>
+
+## Inserindo dados
+
+INSERT INTO Aluno (Nome, DataNascimento, EnderecoRua, EnderecoCidade, EnderecoEstado, Telefone, NotaMedia)<br>
+VALUES<br>
+    ('João Silva', '1990-05-15', 'Rua A', 'Cidade X', 'Estado Y', '123456789', 8.5),<br>
+    ('Maria Oliveira', '1992-08-22', 'Rua B', 'Cidade Z', 'Estado W', '987654321', 9.2),<br>
+    ('Ana Souza', '1995-04-12', 'Rua C', 'Cidade X', 'Estado Y', '123456789', 8.8),<br>
+    ('Pedro Santos', '1993-11-30', 'Rua D', 'Cidade Y', 'Estado X', '555666777', 7.5),<br>
+    ('Mariana Lima', '1994-07-17', 'Rua E', 'Cidade Z', 'Estado W', '111222333', 8.0),<br>
+    ('Lucas Pereira', '1991-02-05', 'Rua F', 'Cidade X', 'Estado Y', '444555666', 9.5),<br>
+    ('Julia Costa', '1990-09-20', 'Rua G', 'Cidade Z', 'Estado W', '999888777', 7.9),<br>
+	('Maria Oliveira', '1992-08-22', 'Rua B', 'Cidade Z', 'Estado W', '987654321', 9.2),<br>
+    ('Gabriel Oliveira', '1993-06-15', 'Rua H', 'Cidade Y', 'Estado X', '222333444', 8.2),<br>
+    ('Larissa Silva', '1996-01-25', 'Rua I', 'Cidade X', 'Estado Y', '777888999', 9.0),<br>
+    ('Felipe Santos', '1992-03-18', 'Rua J', 'Cidade Z', 'Estado W', '666777888', 7.7),<br>
+    ('Camila Lima', '1994-10-10', 'Rua K', 'Cidade Y', 'Estado X', '333444555', 8.7),<br>
+    ('Rafael Oliveira', '1993-08-08', 'Rua L', 'Cidade Z', 'Estado W', '123987456', 8.9),<br>
+    ('Bianca Pereira', '1995-12-03', 'Rua M', 'Cidade X', 'Estado Y', '456789012', 9.1),<br>
+    ('Vinicius Costa', '1991-04-30', 'Rua N', 'Cidade Z', 'Estado W', '789012345', 7.4),<br>
+    ('Fernanda Santos', '1990-07-22', 'Rua O', 'Cidade Y', 'Estado X', '234567890', 8.4),<br>
+    ('Eduardo Lima', '1992-11-15', 'Rua P', 'Cidade X', 'Estado Y', '567890123', 9.3),<br>
+    ('Carolina Oliveira', '1994-05-01', 'Rua Q', 'Cidade Z', 'Estado W', '890123456', 7.2),<br>
+    ('Guilherme Santos', '1993-09-28', 'Rua R', 'Cidade Y', 'Estado X', '345678901', 8.6),<br>
+    ('Amanda Lima', '1991-06-20', 'Rua S', 'Cidade Z', 'Estado W', '012345678', 9.4),<br>
+    ('Thiago Costa', '1995-02-14', 'Rua T', 'Cidade X', 'Estado Y', '876543210', 7.6);<br>
+
+INSERT INTO Professor (Nome, DataNascimento, EnderecoRua, EnderecoCidade, EnderecoEstado, Telefone, DisciplinaLecionada)<br>
+VALUES<br>
+    ('Carlos Santos', '1980-03-10', 'Rua D', 'Cidade Y', 'Estado X', '111222333', 'Matemática'),<br>
+    ('Ana Pereira', '1975-12-05', 'Rua E', 'Cidade Z', 'Estado W', '444555666', 'História'),<br>
+    ('Paulo Oliveira', '1985-06-18', 'Rua F', 'Cidade X', 'Estado Y', '777888999', 'Física'),<br>
+    ('Larissa Costa', '1982-10-30', 'Rua G', 'Cidade Z', 'Estado W', '123987456', 'Química'),<br>
+    ('Ricardo Santos', '1978-09-15', 'Rua H', 'Cidade Y', 'Estado X', '222333444', 'Biologia'),<br>
+    ('Fernanda Lima', '1983-04-22', 'Rua I', 'Cidade X', 'Estado Y', '789012345', 'Geografia'),<br>
+    ('Lucas Costa', '1987-01-08', 'Rua J', 'Cidade Z', 'Estado W', '345678901', 'Educação Física'),<br>
+    ('Mariana Oliveira', '1989-08-03', 'Rua K', 'Cidade Y', 'Estado X', '012345678', 'Artes'),<br>
+    ('Eduardo Pereira', '1981-05-12', 'Rua L', 'Cidade Z', 'Estado W', '456789012', 'Inglês'),<br>
+    ('Camila Santos', '1984-11-25', 'Rua M', 'Cidade X', 'Estado Y', '876543210', 'Português'),<br>
+    ('Vinicius Lima', '1986-07-19', 'Rua N', 'Cidade Z', 'Estado W', '234567890', 'História da Arte'),<br>
+    ('Amanda Oliveira', '1988-02-14', 'Rua O', 'Cidade Y', 'Estado X', '567890123', 'Matemática Aplicada'),<br>
+    ('Thiago Costa', '1990-09-28', 'Rua P', 'Cidade X', 'Estado Y', '987654321', 'Sociologia'),<br>
+    ('Carolina Pereira', '1992-04-05', 'Rua Q', 'Cidade Z', 'Estado W', '345678901', 'Filosofia'),<br>
+    ('Guilherme Lima', '1994-11-20', 'Rua R', 'Cidade Y', 'Estado X', '012345678', 'Espanhol'),<br>
+    ('Bianca Santos', '1996-06-15', 'Rua S', 'Cidade Z', 'Estado W', '345678901', 'Economia'),<br>
+    ('Fernando Oliveira', '1989-03-01', 'Rua T', 'Cidade X', 'Estado Y', '987654321', 'Psicologia'),<br>
+    ('Isabela Lima', '1991-08-08', 'Rua U', 'Cidade Z', 'Estado W', '234567890', 'Computação'),<br>
+    ('Rafael Pereira', '1993-01-25', 'Rua V', 'Cidade Y', 'Estado X', '567890123', 'Engenharia'),<br>
+    ('Juliana Costa', '1995-06-10', 'Rua X', 'Cidade Z', 'Estado W', '789012345', 'Medicina');<br>
+
+INSERT INTO Curso (NomeCurso, CodigoCurso, CargaHoraria)<br>
+VALUES<br>
+    ('Engenharia Civil', 'EC101', 4000),<br>
+    ('História da Arte', 'HA201', 300),<br>
+    ('Administração', 'AD301', 3500),<br>
+    ('Ciência da Computação', 'CC401', 4200),<br>
+    ('Biologia', 'BI501', 3800),<br>
+    ('Economia', 'EC601', 3200),<br>
+    ('Psicologia', 'PS701', 4000),<br>
+    ('Medicina', 'ME801', 6000),<br>
+    ('Arquitetura', 'AR901', 4500),<br>
+    ('Direito', 'DI1001', 4200),<br>
+    ('Engenharia Elétrica', 'EE1101', 4800),<br>
+    ('Matemática', 'MA1201', 3500),<br>
+    ('Comunicação Social', 'CS1301', 3000),<br>
+    ('Nutrição', 'NU1401', 3600),<br>
+    ('Fisioterapia', 'FI1501', 4000),<br>
+    ('Engenharia Química', 'EQ1601', 4200),<br>
+    ('Letras', 'LE1701', 3200),<br>
+    ('Gastronomia', 'GA1801', 2800),<br>
+    ('DSM', 'MV2004', 8200);<br>
+
+INSERT INTO Turma (AnoIngresso, Periodo, Sala, CursoID)<br>
+VALUES<br>
+    (2022, '1ºSemestre', 'A101', 1),<br>
+    (2023, '2ºSemestre', 'B201', 2),<br>
+    (2022, '1ºSemestre', 'C301', 3),<br>
+    (2023, '2ºSemestre', 'D401', 4),<br>
+    (2022, '1ºSemestre', 'E501', 5),<br>
+    (2023, '2ºSemestre', 'F601', 6),<br>
+    (2022, '1ºSemestre', 'G701', 7),<br>
+    (2023, '2ºSemestre', 'H801', 8),<br>
+    (2022, '1ºSemestre', 'I901', 9),<br>
+    (2023, '2ºSemestre', 'J1001', 10),<br>
+    (2022, '1ºSemestre', 'K1101', 11),<br>
+    (2023, '2ºSemestre', 'L1201', 12),<br>
+    (2022, '1ºSemestre', 'M1301', 13),<br>
+    (2023, '2ºSemestre', 'N1401', 14),<br>
+    (2022, '1ºSemestre', 'O1501', 15),<br>
+    (2023, '2ºSemestre', 'P1601', 16),<br>
+    (2022, '1ºSemestre', 'Q1701', 17),<br>
+    (2023, '2ºSemestre', 'R1801', 18),<br>
+    (2022, '1ºSemestre', 'S1901', 19),<br>
+    (2023, '2ºSemestre', 'T2001', 20);<br>
+
+INSERT INTO Matricula (DataMatricula, SituacaoMatricula, AlunoID, TurmaID)<br>
+VALUES<br>
+    ('2022-01-15', 'Ativa', 1, 47),<br>
+    ('2023-03-20', 'Trancada', 2, 48),<br>
+    ('2022-02-10', 'Ativa', 3, 49),<br>
+    ('2023-04-25', 'Concluída', 4, 50),<br>
+    ('2022-03-18', 'Ativa', 5, 51),<br>
+    ('2023-05-15', 'Trancada', 6, 52),<br>
+    ('2022-04-22', 'Ativa', 7, 53),<br>
+    ('2023-06-30', 'Concluída', 8, 54),<br>
+    ('2022-05-12', 'Ativa', 9, 55),<br>
+    ('2023-07-20', 'Trancada', 10, 56),<br>
+    ('2022-06-15', 'Ativa', 11, 57),<br>
+    ('2023-08-10', 'Concluída', 12, 58),<br>
+    ('2022-07-22', 'Ativa', 13, 59),<br>
+    ('2023-09-05', 'Trancada', 14, 60),<br>
+    ('2022-08-08', 'Ativa', 15, 61),<br>
+    ('2023-10-15', 'Concluída', 16, 62),<br>
+    ('2022-09-20', 'Ativa', 17, 63),<br>
+    ('2023-11-18', 'Trancada', 18, 64),<br>
+    ('2022-10-12', 'Ativa', 19, 65),<br>
+    ('2023-12-30', 'Concluída', 20, 66);<br>
