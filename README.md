@@ -4,7 +4,7 @@ Uma escola entrou em contato buscando a implementação de um sistema abrangente
 # Criação do banco de dados
 
 ## Entidades:
-Aluno
+Aluno<br>
 Professor
 Curso
 Turma
