@@ -256,7 +256,34 @@ UPDATE:<br>
 DELETE:<br>
 ![Captura de tela 2023-11-30 163610](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/27195ceb-541f-4277-bfb2-c6520a1b09bf)
 
+# Relatorios
 
+Listar todos os alunos e suas matrículas:<br>
+![Captura de tela 2023-11-30 172801](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/e41faf52-c5dc-4bcc-8712-a6734ce68277)
 
+Mostrar todos os cursos e as turmas associadas:<br>
+![Captura de tela 2023-11-30 172823](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/28769e9b-a50f-42f1-b889-6f665300808f)
 
+Mostrar todos os alunos que estão em turmas do ano de 2022:<br>
+![Captura de tela 2023-11-30 173337](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/a0e6712b-d3c9-46ab-a027-ceff12482403)
 
+Listar todos os alunos ordenados por nota média decrescente:<br>
+![Captura de tela 2023-11-30 173401](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/a392b30c-3bd5-42aa-bb2d-468362b83306)
+
+Mostrar alunos que estão em turmas do período '1º Semestre':<br>
+![Captura de tela 2023-11-30 173434](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/44da1b08-1c18-475d-9686-d0aa3da2b5c8)
+
+Exibir os cursos ordenados por carga horária crescente:<br>
+![Captura de tela 2023-11-30 173455](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/43b39521-b389-4b26-be19-1238aeeedcaa)
+
+Listar todas as matrículas ativas e os alunos associados:<br>
+![Captura de tela 2023-11-30 173516](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/17812a0e-8723-4023-8091-54946adfe5f8)
+
+Listar todas as matrículas concluídas e os alunos associados:<br>
+![Captura de tela 2023-11-30 173626](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/b95add7b-0af2-4563-9973-90b18ab622d7)
+
+Mostrar todos os alunos que não estão matriculados em nenhuma turma:<br>
+![Captura de tela 2023-11-30 173720](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/0ac72bec-36d4-4df8-9283-12d7566209ec)
+
+Lista todos os cursos com a contagem de alunos matriculados em cada curso:<br>
+![Captura de tela 2023-11-30 174659](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/17fbcc10-4305-4a95-879f-ef96a691ffa2)
