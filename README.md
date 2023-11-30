@@ -241,3 +241,8 @@ VALUES<br>
     ('2023-11-18', 'Trancada', 18, 64),<br>
     ('2022-10-12', 'Ativa', 19, 65),<br>
     ('2023-12-30', 'Concluída', 20, 66);<br>
+
+## Dados
+
+![Captura de tela 2023-11-30 163610](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/517bc29e-1d9a-4748-983b-c39addb50b6a)
+
