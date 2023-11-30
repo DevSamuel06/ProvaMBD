@@ -5,44 +5,44 @@ Uma escola entrou em contato buscando a implementação de um sistema abrangente
 
 ## Entidades:
 Aluno<br>
-Professor
-Curso
-Turma
-Matrícula
+Professor<br>
+Curso<br>
+Turma<br>
+Matrícula<br>
 
 ## Atributos:
-Aluno:
-Nome (simples)
-Data de Nascimento (simples)
-Endereço (composto: rua, cidade, estado)
-Telefone (multivalorado)
-Nota Média (derivado)
-ID do Aluno (atributo chave)
+Aluno:<br>
+Nome (simples)<br>
+Data de Nascimento (simples)<br>
+Endereço (composto: rua, cidade, estado)<br>
+Telefone (multivalorado)<br>
+Nota Média (derivado)<br>
+ID do Aluno (atributo chave)<br>
 
-Professor:
-Nome (simples)
-Data de Nascimento (simples)
-Endereço (composto: rua, cidade, estado)
-Telefone (multivalorado)
-Disciplina Lecionada (multivalorado)
-ID do Professor (atributo chave)
+Professor:<br>
+Nome (simples)<br>
+Data de Nascimento (simples)<br>
+Endereço (composto: rua, cidade, estado)<br>
+Telefone (multivalorado)<br>
+Disciplina Lecionada (multivalorado)<br>
+ID do Professor (atributo chave)<br>
 
-Curso:
-Nome do Curso (simples)
-Código do Curso (simples)
-Carga Horária (simples)
-ID do Curso (atributo chave)
+Curso:<br>
+Nome do Curso (simples)<br>
+Código do Curso (simples)<br>
+Carga Horária (simples)<br>
+ID do Curso (atributo chave)<br>
 
-Turma:
-Ano de Ingresso (simples)
-Período (simples)
-Sala (simples)
-ID da Turma (atributo chave)
+Turma:<br>
+Ano de Ingresso (simples)<br>
+Período (simples)<br>
+Sala (simples)<br>
+ID da Turma (atributo chave)<br>
 
-Matrícula:
-Data de Matrícula (simples)
-Situação da Matrícula (simples: ativa, trancada, concluída)
-ID da Matrícula (atributo chave)
+Matrícula:<br>
+Data de Matrícula (simples)<br>
+Situação da Matrícula (simples: ativa, trancada, concluída)<br>
+ID da Matrícula (atributo chave)<br>
 
 
 
