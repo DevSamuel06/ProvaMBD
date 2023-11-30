@@ -68,4 +68,5 @@ Turma e Matrícula (Um para Muitos - 1:N):<br>
 
 # D.E.R (Diagrama Entidade Relacionamento)
 
+![Captura de tela 2023-11-30 124538](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/ab3afe24-4dd7-49f7-ab9e-1d1baf29aa4e)
 
