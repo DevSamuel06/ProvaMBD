@@ -76,7 +76,7 @@ Turma e Matrícula (Um para Muitos - 1:N):<br>
 
 
 # Dados
-##Criando Tabelas
+## Criando Tabelas
 CREATE TABLE Aluno (<br>
     AlunoID INT PRIMARY KEY IDENTITY(1,1),<br>
     Nome VARCHAR(255),<br>
