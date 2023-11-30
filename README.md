@@ -66,4 +66,6 @@ Turma e Matrícula (Um para Muitos - 1:N):<br>
  Uma turma pode ter várias matrículas.<br>
  Uma matrícula pertence a apenas uma turma<br>
 
+# D.E.R (Diagrama Entidade Relacionamento)
+
 
