@@ -75,3 +75,54 @@ Turma e Matrícula (Um para Muitos - 1:N):<br>
 
 # Modelagem física
 
+## Criação de Tabelas
+
+USE ModelagemBD
+
+CREATE TABLE Aluno (
+    AlunoID INT PRIMARY KEY,
+    Nome VARCHAR(255),
+    DataNascimento DATE,
+    EnderecoRua VARCHAR(255),
+    EnderecoCidade VARCHAR(255),
+    EnderecoEstado VARCHAR(255),
+    Telefone VARCHAR(20),
+    NotaMedia FLOAT
+);
+
+CREATE TABLE Professor (
+    ProfessorID INT PRIMARY KEY,
+    Nome VARCHAR(255),
+    DataNascimento DATE,
+    EnderecoRua VARCHAR(255),
+    EnderecoCidade VARCHAR(255),
+    EnderecoEstado VARCHAR(255),
+    Telefone VARCHAR(20),
+    DisciplinaLecionada VARCHAR(255)
+);
+
+CREATE TABLE Curso (
+    CursoID INT PRIMARY KEY,
+    NomeCurso VARCHAR(255),
+    CodigoCurso VARCHAR(20),
+    CargaHoraria INT
+);
+
+CREATE TABLE Turma (
+    TurmaID INT PRIMARY KEY,
+    AnoIngresso INT,
+    Periodo VARCHAR(10),
+    Sala VARCHAR(10),
+    CursoID INT,
+    FOREIGN KEY (CursoID) REFERENCES Curso(CursoID)
+);
+
+CREATE TABLE Matricula (
+    MatriculaID INT PRIMARY KEY,
+    DataMatricula DATE,
+    SituacaoMatricula VARCHAR(20),
+    AlunoID INT,
+    TurmaID INT,
+    FOREIGN KEY (AlunoID) REFERENCES Aluno(AlunoID),
+    FOREIGN KEY (TurmaID) REFERENCES Turma(TurmaID)
+);
