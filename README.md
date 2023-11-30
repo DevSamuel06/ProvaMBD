@@ -76,9 +76,7 @@ Turma e Matrícula (Um para Muitos - 1:N):<br>
 
 
 # Dados
-
-## CRUD 
-
+##Criando Tabelas
 CREATE TABLE Aluno (<br>
     AlunoID INT PRIMARY KEY IDENTITY(1,1),<br>
     Nome VARCHAR(255),<br>
@@ -244,7 +242,7 @@ VALUES<br>
     ('2022-10-12', 'Ativa', 19, 65),<br>
     ('2023-12-30', 'Concluída', 20, 66);<br>
 
-## Relatórios
+## CRUD
 
 Insert:<br>
 ![Captura de tela 2023-11-30 163322](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/cce22d62-d095-4200-9410-3913cce7c371)
