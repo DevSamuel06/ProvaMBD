@@ -74,6 +74,8 @@ Turma e Matrícula (Um para Muitos - 1:N):<br>
 
 # Modelagem Lógica 
 
+![Captura de tela 2023-11-30 212001](https://github.com/DevSamuel06/ProvaMBD/assets/124092317/3f243216-c963-42e2-ae26-07d13d727306)
+
 
 # Dados
 ## Criando Tabelas
